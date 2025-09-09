@@ -1,5 +1,12 @@
-    let letras = ['s', 'o', 'p', 'r', 'b', 'a'];
-    console.log(letras);
-    for(let i = 0; i < 3; i++){
-        console.log(letras[i]);
-    }
+let original = "849";
+
+// Passo 1: transformar em array
+let arrayCaracteres = original.split('');
+
+// Passo 2: inverter o array
+let arrayInvertido = arrayCaracteres.reverse();
+
+// Passo 3: juntar para virar string novamente
+let invertida = arrayInvertido.join('');
+
+console.log(invertida);  // saída: 948
