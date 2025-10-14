@@ -8,5 +8,3 @@ let arrayInvertido = arrayCaracteres.reverse();
 
 // Passo 3: juntar para virar string novamente
 let invertida = arrayInvertido.join('');
-
-console.log(invertida);  // saída: 948
