@@ -1,147 +1,258 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
-    <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-    crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-primary p-3">
-  <div class="container">
-    <a class="navbar-brand text-white" href="index.html">Sobre Mim</a>
-    
-    <!-- Botão para abrir menu em mobile -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">    
+  </head>
+  <body>
+    <header class="header">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropbotton" href="#">Languages</a>
+          <div class="dropdownbotton">
+            <a href="html.html" target="_blank">HTML</a>
+            <a href="css.html" target="_blank">CSS</a>
+            <a href="java.html" target="_blank">JAVASCRIPT</a>
+            <a href="php.html" target="_blank">PHP</a>
+            <a href="python.html" target="_blank">PYTHON</a>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <div class="folha">
+              <img src="logo.png.png"
+              alt="green-leaf-outline-flat"
+              height="50px"
+              class="folha">
+            </div>
+          </div>
+        </li>
+      </ul> 
+    </header>
 
-    <div class="collapse navbar-collapse" id="menuNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link text-white" href="projetos.html">Projetos</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="contatos.html">Contatos</a></li>
-      </ul>
+    <div class="div4">
+      <div class="button-container">
+        <a href="html.html"><button class="btn btn-linear">HTML</button></a>
+        <a href="css.html"><button class="btn btn-radial">CSS</button></a>
+        <a href="java.html"><button class="btn btn-diagonal">JAVASCRIPT</button></a>
+        <a href="php.html"><button class="btn btn-shift">PHP</button></a>
+        <a href="python.html"><button class="btn btn-shift">PYTHON</button></a>
+      </div>
+    </div>
 
-      <!-- Botão à direita -->
-      <button class="btn btn-light">Entrar</button>
+    <main class="main">
+      <div class="caixa2">
+        <a href="html.html"></a><img src="https://hotmart.s3.amazonaws.com/product_pictures/ad77cdc0-3bc2-4230-9422-3c6589d24a33/maratonalogicadeprogramacao.jpg"
+          alt="background"
+          class="img1"/>
+
+      <div class="divs.direita">
+        <div class="div5">
+          <h1 class="h1">Source</h1>
+            <form action="/search" method="GET" class="form h1">
+              <input type="text" name="query" placeholder="Search the blog">
+              <button class="btn btn-linear" type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="div6">
+          <h1 class="h1">Categories</h1>
+            <a href="html.html" target="_blank" class="links links-linear">HTML</a>
+            <a href="css.html" target="_blank" class="links links-linear">CSS</a>
+            <a href="java.html" target="_blank" class="links links-linear">JAVASCRIPT</a>
+            <a href="php.html" target="_blank" class="links links-linear">PHP</a>
+            <a href="python.html" target="_blank" class="links links-linear">PYTHON</a>
+        </div>
     </div>
   </div>
-</nav>
 
-      <div class="div" style="background-color: #1a1a1a; padding: 30px 15px; overflow-x: hidden;">
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      
-      <!-- IMAGEM -->
-      <div class="col-12 col-lg-6 text-center mb-4 mb-lg-0">
-        <img 
-          src="fotos.jpeg"
-          class="img-fluid rounded-circle"
-          style="max-width: 250px; height: auto;"
-          alt="Foto de Bryan"
-        />
-      </div>
+      <div class="div1">
+        <p class="p1">
+          Programming, in the context of technology, is the process of writing a set of instructions for a computer to perform a specific task.
+          These instructions are created in a programming language, which serves as a communication bridge between humans and machines.
+        </p>
 
-      <!-- TEXTO -->
-      <div class="col-12 col-lg-6 text-white px-3" style="text-align: justify; word-wrap: break-word;">
-        <h3 class="mt-2">Nome:</h3>
-        <p>Bryan Cabral Castro</p>
-
-        <h3>Idade:</h3>
-        <p>23 anos</p>
-
-        <h3>Descrição:</h3>
-        <p>
-          Programador Front End Júnior, com habilidades em HTML, CSS e GitHub.
-          Experiência em criação, manutenção e ajustes de sites. Em busca de oportunidades
-          para crescer profissionalmente e ampliar conhecimentos na área de programação.
+        <p class="p1">
+          Programming is based on logical thinking and the creation of algorithms, which are sequences of logical steps to solve a problem.
+          <br><br>The pillars of computational thinking that support this process include:<br><br>
+          - Decomposition: Breaking a complex problem into smaller, easier-to-solve parts.<br><br>
+          - Pattern recognition: Identifying similarities between problems.<br><br>
+          - Abstraction: Focusing on the most important details for the solution, ignoring the secondary ones.<br><br>
+          - Algorithm: Creating the exact sequence of instructions to achieve the goal.
         </p>
       </div>
 
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968333.png"
+          alt="HTML"
+          class="img2"
+          height="120px"/>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/019/044/725/small_2x/css-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg"
+          alt="CSS"
+          class="img2"
+          height="120px"/>
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968238.png"
+          alt="JS"
+          class="img2"
+          height="120px"/>
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/10206615-php-letter-design-php-letter-logo-design-on-black-background-php-creative-initials-letter-logo-concept-php-letter-design-php-letter-logo-design-on-black-background-p-vetor.jpg"
+          alt="PHP"
+          class="img2"
+          height="120px"/>
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png"
+          class="img2"
+          height="120px"/>
+      </div>
+
+      <div class="div1">
+        <p class="p1">
+          Programming languages are formal sets of rules and instructions, like a "language", that allow programmers to create computer programs, 
+          applications, and other software.<br><br>
+          They act as a bridge between the language humans understand and the binary language (machine code) that computers execute.<br><br>
+          Languages vary in their level of abstraction, such as low-level (closer to hardware) and high-level (easier for humans to read and 
+          write), with popular examples including HTML, CSS, Javascript, PHP, and Python, each with its own applications and advantages.
+        </p>
+      </div>
+
+      <div class="div2">
+        <div class="div3">
+          <p class="p2">
+            HTML<hr class="hr1"><br>
+            HTML (HyperText Markup Language) is the markup language used to create and structure web pages. It defines the structure of content, such as headings, 
+            paragraphs, images, links, and tables.<br><br>
+          </p><hr class="hr2">
+        </div>
+            
+        <div class="div3">
+          <p class="p2">
+            CSS<hr class="hr1"><br>
+            CSS (Cascading Style Sheets) is the language used to style and format web pages. It controls colors, fonts, sizes, spacing, layouts, and 
+            much more, making HTML visually beautiful and organized.<br>
+          </p><hr class="hr2">
+        </div>
+        
+        <div class="div3">
+          <p class="p2">
+            JAVASCRIPT<hr class="hr1"><br>
+            JavaScript (JS) is the programming language used to make web pages interactive. With JS, you can create animations, validate forms, 
+            manipulate page elements, respond to clicks and events, among many other features.<br>
+          </p><hr class="hr2">
+        </div>
+        
+        <div class="div3">
+          <p class="p2">
+            PHP<hr class="hr1"><br>
+            PHP (Hypertext Preprocessor) is a server-side programming language used to create dynamic web pages. It processes data on the server before 
+            sending content to the browser, allowing interactions with databases, forms, and login systems.<br><br><br>
+          </p><hr class="hr2">
+        </div>
+        
+        <div class="div3">
+          <p class="p2">
+            PYTHON<hr class="hr1"><br>Python is a high-level, interpreted, general-purpose programming language.
+            Python is a versatile and high-level programming language, used for web development, automation, data analysis, artificial intelligence, 
+            data science, and much more. It is known for its simple and readable syntax.<br><br><br>
+          </p><hr class="hr2">
+        </div>
+      </div>
+
+      <section class="section1">
+        <h2 class="p3">
+          IMPORTANT FIGURES IN PROGRAMMING
+        </h2>
+      </section>
+
+      <section class="section2">
+        <h2 class="p3"> 
+          LINUS TORVALDS<br>
+        </h2>
+          <section style="display: flex; gap: 50px; align-items: center;">
+            <p class="p3"> 
+              The name Linus Torvalds itself indicates the impact he has had on the world of programming. In 1991, from the University of Helsinki, he created the Linux kernel, one of the main exponents of free and open-source software. Interestingly, Torvalds had named his creation "Freax" (a combination of "free", "freak", and "x"), but the server administrator chose "Linux", which was the nickname Linus used at university.
+              Today, thousands of programmers around the world continue to contribute to the development of Linux. However, the valuable and fundamental initial contribution earned the Finnish computer engineer several awards and honors, such as inclusion in the Internet Hall of Fame, nomination by Time magazine as one of the revolutionary heroes of the last 60 years, and even an asteroid named after him.
+            </p><br>
+
+              <img src="https://media.newyorker.com/photos/5ba177da9eb2f7420aadeb98/master/w_2560%2Cc_limit/Cohen-Linus-Torvalds.jpg"
+                height="255px"
+                width="260px"
+                alt="Linus Torvalds"
+                style="border-radius: 5px;"/>
+          </section>
+        
+        <h2 class="p3">  
+          TIM BERNERS-LEE<br>
+        </h2>
+          <section style="display: flex; gap: 50px; align-items: center;">
+            <p class="p3">  
+              In 2004, Tim Berners-Lee was knighted by Queen Elizabeth II with the title of Knight Commander of the Order of the British Empire. There are plenty of reasons for this honor, of course. After all, Tim was the inventor of the Hypertext Transfer Protocol (yes, HTTP), which is essentially the technology on which the entire World Wide Web is based. It was a game changer, as his creation allowed users to access information via the Internet.
+              The impact of this Londoner continues to this day, as he holds the Founders Chair at the MIT Computer Science and Artificial Intelligence Laboratory and is director of the Alliance for Affordable Internet, an organization whose goal is to make broadband Internet access much more affordable for everyone in the world.
+            </p><br>
+
+              <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/03/12/08/12-03-sir-tim-berners-lee.jpg?width=1200"
+                height="255px"
+                width="255px"
+                alt="Tim Berners-Lee"
+                style="border-radius: 5px;"/>
+          </section>
+
+        <h2 class="p3">  
+          BJARNE STROUSTRUP<br>
+        </h2>
+          <section style="display: flex; gap: 50px; align-items: center;">
+            <p class="p3">  
+              Born in 1950 in Denmark, Bjarne Stroustrup is currently a professor at the Computer Science Chair at the College of Engineering at Texas A&M University, as well as at Columbia University. His résumé is highly respectable, as he was the one who, in 1979, created and developed the C++ programming language, which is widely used worldwide and added new features to the C language (created by Dennis Ritchie).
+              In fact, he is the author of several books, such as "The C++ Programming Language", which is very useful as an introductory text for this language, "The Design and Evolution of C++", in which he delves into the principles and limitations that shaped C++, and "Programming -- Principles and Practice Using C++", which offers a programming approach that establishes a solid foundation for writing code correctly and efficiently.
+            </p><br>
+
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Bjarne_Stroustrup_2013_%2826094092294%29.jpg"
+                height="255px"
+                width="255px"
+                alt="BJARNE STROUSTRUP"
+                style="border-radius: 5px;"/>
+          </section>
+        </section>
+
+        <div class="layout-container">
+      <div class="header2">
+        <h1 class="h2">Blog Programmers</h1>
+      </div>
+     
+      <div class="sidebar">
+        
+      </div>
+      
+      <div class="sidebar">
+        <img src="logo.png.png"
+        alt="sidebar"
+        height="130px"/>
+      </div>
+
+      <div class="content">
+        <p style="font-size: 18px; font-family: 'Rubik', sans-serif; margin-top: 0px; text-align: center;">Feedback About The Site:</p>
+          <div class="comentario-container">
+            <h2 class="h2">Write Here</h2>
+              <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 15px;">
+                <textarea id="comentario" placeholder="Write here what you think of the site..."></textarea>
+                <button class="send">Send</button>
+                <p class="mensagem" id="mensagem">Comment sent! ✅</p>
+              </div>
+          </div>
+      </div>
+      
+      <div class="footer2"></div>
     </div>
-  </div>
-</div>
-</section>
+  </main>
 
 
-    <div class="container" style="margin-top: 200px;">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card" style="width: 25rem;">
-                <img src="https://www.valuehost.com.br/blog/wp-content/uploads/2016/10/linguagens-de-programacao.jpeg"
-                        height="300vh" class="card-img-top" alt="Programação">
-                <div class="card-body">
-                <h5 class="card-title">Programação</h5>
-                <p class="card-text">Blog sobre Programação, algumas ferramentas e personagens importantes da sua história.</p>
-                <a href="#" class="btn btn-primary">Ver Projeto</a>
-            </div>
-        </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card" style="width: 25rem;">
-                <img src="https://www.cadiz.com.br/wp-content/uploads/2021/11/12-Saude-e-seguranca-no-trabalho-cuide-de-seus-funcionarios.jpg"
-                          height="300vh" class="card-img-top" alt="SST">
-                <div class="card-body">
-                <h5 class="card-title">Saúde e Segurança no Trabalho - SST</h5>
-                <p class="card-text">Site sobre Saúde e Segurança no Trabalho, com regras, normas, informações e ademais.</p>
-                <a href="#" class="btn btn-primary">Ver Projeto</a>
-            </div>
-        </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card" style="width: 25rem;">
-                <img src="https://d335luupugsy2.cloudfront.net/images/landing_page/26335/Capas_Padronizadas_Ebooks_Ferramentas_de_Qualidade.png"
-                          height="300vh" class="card-img-top" alt="Ferramentas da qualidade">
-                <div class="card-body">
-                <h5 class="card-title">Ferramentas da Qualidade</h5>
-                <p class="card-text">Site informativo sobre algumas Ferramentas da Qualidade.</p>
-                <a href="#" class="btn btn-primary">Ver Projeto</a>
-            </div>
-        </div>
-            </div>
-        </div>
-    </div>
 
-
-    <div class="container" style="margin: 200px auto; font-size: 20px;">
-      <h2 class="text-center">Contatos</h2>
-        <form>
-      <div class="m-3 mx-auto" style="width: 400px;">
-        <label for="nome" class="form-label">Nome</label>
-        <input type="text" id="nome" class="form-control" placeholder="Digite seu nome">
-      </div>
-
-      <div class="m-3 mx-auto" style="width: 400px;">
-        <label for="email" class="form-label">E-mail</label>
-        <input type="email" id="email" class="form-control" placeholder="exemplo@email.com">
-      </div>
-
-      <div class="m-3 mx-auto" style="width: 400px;">
-        <label for="mensagem" class="form-label">Mensagem</label>
-        <textarea id="mensagem" class="form-control" rows="5" placeholder="Escreva algo..."></textarea>
-      </div>
-
-      <div class="m-3 mx-auto" style="width: 400px;">
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </div>
-    </form>
-  </div>
-     </div>
-  </div>
-
-  <footer class="bg-primary -3 text-white pt-4 pb-4">
-    <div class="container text-center">
-      <p>@2025 | Bryan Cabral | Criado com Bootstrap</p>
-        <a href="#" class="btn btn-light">Linkedin</a>
-        <a href="#" class="btn btn-light">GitHub</a>
-
-    </div>
-
-  </footer>
-</body>
+    <footer class="footer">
+      <p>
+        @Blog_Programmers - 2025
+      </p>
+    </footer>
+  </body>
 </html>
